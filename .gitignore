@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# Compilados
+dist/
+build/
+coverage/
+*.js.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entorno
+.env
+.env.local
