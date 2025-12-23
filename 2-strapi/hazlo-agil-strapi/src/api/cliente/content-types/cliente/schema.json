@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Cliente"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Correo": {
+      "type": "email"
+    },
+    "riesgo_fraude": {
+      "type": "boolean"
+    },
+    "saldo": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metricas",
+  "info": {
+    "singularName": "metrica",
+    "pluralName": "metricas",
+    "displayName": "Metrica"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Fecha": {
+      "type": "date"
+    },
+    "Valor": {
+      "type": "biginteger"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "conversion",
+        "churn",
+        "revenue"
+      ]
+    }
+  }
+}

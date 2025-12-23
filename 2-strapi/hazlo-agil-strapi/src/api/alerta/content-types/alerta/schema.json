@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alertas",
+  "info": {
+    "singularName": "alerta",
+    "pluralName": "alertas",
+    "displayName": "Alerta"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cliente_id": {
+      "type": "uid"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "red",
+        "green"
+      ]
+    },
+    "urgencia": {
+      "type": "enumeration",
+      "enum": [
+        "alta",
+        "media",
+        "baja"
+      ]
+    }
+  }
+}
