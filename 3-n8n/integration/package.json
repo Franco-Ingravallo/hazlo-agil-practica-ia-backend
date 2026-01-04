@@ -1,0 +1,23 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "description": "Strapi integration with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "strapi",
+    "integration"
+  ],
+  "author": "Franco Ingravallo",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
