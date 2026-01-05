@@ -1,0 +1,22 @@
+{
+  "name": "3-n8n",
+  "version": "1.0.0",
+  "description": "n8n workflows for hazlo-agil project",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start",
+    "dev": "n8n start --tunnel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "n8n",
+    "workflow",
+    "automation"
+  ],
+  "author": "Franco Ingravallo",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "n8n": "^2.1.5"
+  }
+}
